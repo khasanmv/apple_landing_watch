@@ -1,0 +1,216 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+.nav{
+    padding:30px 0px;
+    background:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 15px;
+    color:black;
+    font-weight:400;
+    text-decoration: none;
+    margin-left: 60px;
+    font-family: "Roboto", serif;
+}
+.header a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: #666666
+  }
+.logo{
+    color: black;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:245px;
+    margin-top:79.46px;
+}
+.h1{
+    font-size: 50px;
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 30px;  
+    font-family: "Roboto", serif;
+}
+.paragh{
+    color: gray;
+    font-size: 16px;
+    min-width: 450px;
+    margin-bottom:40px;
+    font-family: "Roboto", serif;
+}
+.button{
+    background-color: #ff6a6a;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size:18px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family:"Roboto", serif;
+}
+.button:hover{
+    background-color: #e55555;
+}
+.image{
+    float:right;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top:70px;
+    margin-bottom: 94px;
+ 
+}
+.same{
+    max-width: 300px;
+}
+.known{
+    color: black;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom:30px;
+}
+.run{
+    color: black;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom:30px ;
+}
+.just{
+    color: black;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom:30px ;
+}
+.text1{
+    color: #333333;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Roboto", serif;
+}
+.button1{
+    color: #EA625C;
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 700;
+    font-family: "Roboto", serif;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.offers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:110px;
+    margin-top:70px;
+    margin-bottom: 70px;
+}
+.nike{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: "Roboto", serif;
+    margin-bottom: 30px;
+
+}
+.made{
+    color: #777;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    margin-bottom: 30px;
+}
+.button2{
+    background-color: #ff6a6a;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 60px;
+    font-size:18px;
+    font-weight: 700;
+    line-height: 27px;
+    font-family:"Roboto", serif;
+}
+.button2:hover{
+    background-color: #e55555;
+}
+.services{
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* gap:110px; */
+    /* margin-top:70px;
+    margin-bottom: 70px; */
+    /* background-color: black; */
+    /* height: 830px; */
+    background: url("./images/runners.jpg");
+    margin-bottom: 70px;
+}
+.branch{
+    flex:1;
+    /* margin-right: 125px; */
+    margin:240px 125px;
+    min-width: 490px;
+}
+.branch1{
+    flex:1;
+}
+.take{
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: "Roboto", serif;
+    margin-bottom: 30px;
+}
+.with{
+    color: white; 
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: "Roboto", serif;
+    
+}
+.button3{
+    background-color: #ff6a6a;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 50px;
+    font-size:18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 30px;
+    font-family:"Roboto", serif;
+}
+.button3:hover{
+    background-color: #e55555;
+}
+
